@@ -1,0 +1,109 @@
+.page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .box {
+    width: 400px;
+    height: 455px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    display: block;
+    .logo {
+      width: 100%;
+      height: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100px;
+        height: 70px;
+      }
+    }
+    .login {
+      width: 100%;
+      height: 65%;
+      display: block;
+      padding: 25px;
+      text-align: right;
+      justify-content: flex-end;
+      .title {
+        width: inherit;
+        height: 15%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        h2 {
+          font-family: var(--fontfamily);
+          font-size: 18px;
+          color: #2b2b2b;
+        }
+      }
+      .hi {
+        width: inherit;
+        height: 20%;
+        display: block;
+        line-height: 25px;
+        span {
+          font-size: 13px;
+          font-family: var(--fontfamily);
+          color: grey;
+        }
+      }
+      .inter {
+        width: inherit;
+        height: 70%;
+        form {width: inherit;
+            height: 100%;
+          input {
+            width: inherit;
+            height: 50px;
+            border: 2px solid skyblue;
+            border-radius: 10px;
+            margin-top: 20px;
+          }
+          a {
+            width: inherit;
+            height: 50px;
+            text-decoration: none;
+            color: #2b2b2b;
+            button {
+              width: inherit;
+              height: 50px;
+              background-color: #ef4056;
+              border-radius: 10px;
+              margin-top: 30px;
+              cursor: pointer;
+              color: whitesmoke;
+              font-family: var(--fontfamily);
+              font-size: 15px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+      .text{
+        width: inherit;
+        height: 20%;
+        display: flex;
+        text-align: end;
+        justify-content:flex-start;
+        align-items: center;
+        direction: rtl;
+        line-height: 20px;
+        P{
+            font-family: var(--fontfamily);
+            font-size: 11.5px;
+            color: grey;
+
+        }
+        span{
+            font-family: var(--fontfamily);
+            font-size: 11px;
+            color: #008eb2;
+        }
+      }
+    }
+  }
+}

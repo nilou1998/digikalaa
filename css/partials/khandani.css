@@ -1,0 +1,66 @@
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+  .khandani {
+    height: 430px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    .title{
+        width: inherit;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        h3{
+            width: 85%;
+            font-family: var(--fontfamily);
+            margin-right: 30px;
+
+        }
+        span{
+            width: 15%;
+            font-family: var(--fontfamily);
+            color: blue;
+            font-size: 12px;
+        }
+    }
+    .item{
+        width: inherit;
+        height: 310px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+        .first{
+            width: 300px;
+            height: 280px;
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            border-radius: 7px;
+            border: 1px solid lightgrey;
+            .image{
+                width: inherit;
+                height: 80%;
+                border-radius: 7px 7px 0 0;
+                img{
+                    width: inherit;
+                    height: 100%;
+                    border-radius: 7px 7px 0 0;
+                }
+            }
+            .text{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-right: 5px;
+                span{
+                    font-family: var(--fontfamily);
+                    font-size: 13px;
+                    
+                }
+            }
+        }
+    }
+  }
+}

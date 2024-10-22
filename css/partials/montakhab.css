@@ -1,0 +1,128 @@
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+  border: #2b2b2b;
+  .montakhab {
+    width: 100%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .montakhabha {
+      width: 99%;
+      height: 670px;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid lightgray;
+      border-radius: 7px;
+      .title {
+        width: inherit;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        column-gap: 10px;
+
+        h3 {
+          font-family: var(--fontfamily);
+          font-size: 20px;
+          font-weight: 600;
+          text-align: center;
+        }
+      }
+      .mahsolat {
+        height: 620px;
+        width: inherit;
+        /* display: flex; */
+        .aval {
+            width: 100%;
+            height:200px;
+            display: flex;
+          .kolesh {
+            width: 18%;
+            height: 100%;
+            border-bottom: 1px solid lightgray;
+            border-left: 1px solid lightgray;
+            .axesh {
+              width: 100%;
+              height: 80%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                width: 150px;
+                height: 150px;
+              }
+            }
+            .matnesh {
+              width: 100%;
+              height: 20%;
+              display: flex;
+              .darsadesh {
+                width: 30%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .dis {
+                  background-color: crimson;
+                  width: 30px;
+                  height: 20px;
+                  border-radius: 15px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  span {
+                    font-family: var(--fontnazanin);
+                    color: whitesmoke;
+                  }
+                }
+              }
+              .qeimatesh {
+                width: 70%;
+                height: 100%;
+                /* display: flex; */
+                align-items: flex-start;
+                justify-content: flex-end;
+                .qeimat {
+                  width: 100%;
+                  height: 50%;
+                  display: flex;
+                  justify-content: flex-end;
+                  align-items: flex-start;
+                  span {
+                    font-family: var(--fontnazanin);
+                    font-size: 20px;
+                    font-weight: 800;
+                    display: flex;
+                    align-items: center;
+                    color: black;
+                  }
+                  img {
+                    padding-top: 5px;
+                  }
+                }
+                .takhfif {
+                  height: 50%;
+                  width: 100%;
+                  display: flex;
+                  justify-content: flex-end;
+                  padding-left: 20px;
+                  align-items: center;
+                  span {
+                    font-family: var(--fontnazanin);
+                    text-decoration-line: line-through;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

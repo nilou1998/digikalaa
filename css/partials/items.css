@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+  .items {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    .items-center {
+      width: 99%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      column-gap: 75px;;
+      .items-center-item1 {
+        width: fit-content;
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 25px;
+        img {
+          width: 52px;
+          height: 52px;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: var(--fontfamily);
+          font-size: 12px;
+          display: inline-block;
+          width: 52px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
